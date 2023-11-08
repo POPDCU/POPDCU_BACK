@@ -26,4 +26,8 @@ public class College {
         this.collegeName = collegeName;
         this.countNumber = countNumber;
     }
+
+    public void AddCountNumber(long addNumber){
+        this.countNumber+=addNumber;
+    }
 }
