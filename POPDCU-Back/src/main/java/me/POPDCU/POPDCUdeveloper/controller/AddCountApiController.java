@@ -17,13 +17,13 @@ public class AddCountApiController {
     private final AddCountService addCountService;
 
     @PatchMapping("/api/count/id/{id}")
-    public ResponseEntity<College> addCountId(@PathVariable long id, @RequestBody AddCountRequest addCountRequest){
+    public ResponseEntity<College> addCountIdJson(@PathVariable long id, @RequestBody AddCountRequest addCountRequest){
         College addCountCollege = addCountService.addCountId(id,addCountRequest);
         return ResponseEntity.ok()
                 .body(addCountCollege);
     }
     @PatchMapping("/api/count/name/{collegeName}")
-    public ResponseEntity<College> addCountName(@PathVariable String collegeName, @RequestBody AddCountRequest addCountRequest){
+    public ResponseEntity<College> addCountNameJson(@PathVariable String collegeName, @RequestBody AddCountRequest addCountRequest){
         College addCountCollege = addCountService.addCountName(collegeName,addCountRequest);
         return ResponseEntity.ok()
                 .body(addCountCollege);
