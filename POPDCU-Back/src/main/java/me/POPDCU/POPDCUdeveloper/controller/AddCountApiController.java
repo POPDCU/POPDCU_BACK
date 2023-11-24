@@ -25,7 +25,7 @@ public class AddCountApiController {
     @PatchMapping("/api/count/name/{collegeName}")
     public ResponseEntity<College> addCountName(@PathVariable String collegeName, @RequestBody AddCountRequest addCountRequest){
         College addCountCollege = addCountService.addCountName(collegeName,addCountRequest);
-        return Respo    nseEntity.ok()
+        return ResponseEntity.ok()
                 .body(addCountCollege);
     }
 }
