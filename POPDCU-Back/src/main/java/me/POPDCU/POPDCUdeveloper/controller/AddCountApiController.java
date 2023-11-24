@@ -6,11 +6,9 @@ import me.POPDCU.POPDCUdeveloper.dto.AddCountRequest;
 import me.POPDCU.POPDCUdeveloper.repositroy.AddCountRepository;
 import me.POPDCU.POPDCUdeveloper.service.AddCountService;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PatchMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin
 @RequiredArgsConstructor
 @RestController
 public class AddCountApiController {
