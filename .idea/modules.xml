@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/POPDCU-Back.main.iml" filepath="$PROJECT_DIR$/.idea/modules/POPDCU-Back.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/POPDCU_Back.iml" filepath="$PROJECT_DIR$/.idea/POPDCU_Back.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/me.POPDCU.POPDCU-Back.main.iml" filepath="$PROJECT_DIR$/.idea/modules/me.POPDCU.POPDCU-Back.main.iml" />
     </modules>
   </component>
 </project>
